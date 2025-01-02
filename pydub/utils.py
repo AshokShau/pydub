@@ -12,7 +12,7 @@ from warnings import warn
 from functools import wraps
 
 try:
-    import audioop
+    import audio.op as audioop
 except ImportError:
     import pyaudioop as audioop
 
